@@ -1,0 +1,288 @@
+/* html and body */
+html,body{
+    background-color: aliceblue;
+    color: white;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* navbar styles */
+.navbar{
+    padding: 0% 5% 0%;
+    text-align: center;
+    
+}
+.logo-img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+.bg-dark {
+    background-color: #111d43!important;
+}
+.nav-item{
+     padding: 0 20px;
+} 
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size:x-small;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,100);
+}
+
+@media (min-width: 1200px){
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 5.5rem;
+        padding-left: 0.5rem;
+}
+
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* classes */
+.row.Home{
+    color: #111d43!important;
+    background-color:  aliceblue;
+    
+}
+.home-text{
+    text-align: left;
+}
+.home-img{
+    
+    width: 80%;
+}
+.container-fluid{
+    position: relative;
+    padding: 4% 5%;
+    text-align: center;
+    height: 100%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* sections */
+
+#topic-section{
+    color: black;
+    background-color: lightseagreen;
+}
+#speakers-section{
+    background-color:#5dcdf9;
+    color: black;
+}
+#members-section{
+    background-color:#111d43!important;
+}
+
+#register-section{
+    background-color: #2c3140;
+}
+#footer-section{
+    padding: 4% 5%;
+    text-align: center;
+    background-color: #111d43!important;
+}
+#submission-section{
+    background-color: #40babe;
+    color: black;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* headings */
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 3%;
+}
+
+p{
+    font-size: large;
+    font-family: 'PT Sans ', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+
+    
+    
+
+}
+h4{
+    font-size: medium;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+    
+}
+h5{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+
+}
+a,a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* buttons */
+
+.buttons{
+    text-decoration: none;
+    color:white;
+}
+.buttons:hover{
+    text-decoration: none;
+    color: black;
+}
+a{ 
+    padding: 0.5rem 1rem;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.previous{
+    left: -10%;
+}
+.next{
+    right: -10%;
+}
+.w-50{
+    margin-left: 25%;
+    height: 290px;
+    
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* responsiveness */
+
+@media screen and (max-width:850px){
+    .container-fluid{
+        padding: 40% 5%;
+    }
+    .speaker-img{
+        margin-left: 25%;
+        height: 65%;
+        width: 50%;
+    }
+   
+}
+
+.details{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.topic-list{
+    list-style: square;
+    text-align: left;
+    font-size: large;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+}
+
+
+.speaker-img{
+    margin-left: 77%;
+    height: 65%;
+    width: 50%;
+}
+
+#testimonial-section{
+    background-color: #111d43;
+    
+}
+
+#top{
+    padding: 2% 0 2% 0px;
+}
+
+#logo{
+    width: 29%;
+    margin-left: 25%;
+}
+
+#details{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: -11%;
+}
+
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: #111d43;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+
+#details_1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    margin-left: 27%;
+}
+
+#h4_1{
+    margin-bottom: 4%;
+}
+
+.bbbb{
+    width: 165px;
+}
+
+/* contact us */
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: 7%;
+}
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 6%;
+}
+
+.inputs{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,textarea,.input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid beige;
+    color: beige;
+    background: transparent;
+}
+.xyz{
+    background-color:cornflowerblue;
+}
+/* label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: beige;
+    cursor: text;
+    transition: 0.2s;
+} */
+
+/* input:focus~label,input:valid~label{
+    top: -35px;
+    font-size: 14px;
+} */
